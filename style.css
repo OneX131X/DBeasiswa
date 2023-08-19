@@ -1,0 +1,224 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+}
+.form-container {
+    /* display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px; */
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    padding-top: 40px;
+    border: 1px solid #ccc;
+    /* border-radius: 5px; */
+}
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.form-label {
+    flex: 1;
+    text-align: left;
+    margin-right: 10px;
+}
+.form-input {
+    flex: 2;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    /* border-radius: 3px; */
+    margin-right: 0%;
+}
+.form-grid{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.form-item{
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.form-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    /* border-radius: 3px; */
+}
+.form-input[disabled] {
+    background-color: #f2f2f2;
+}
+.form-buttons {
+    /* text-align: center; */
+    /* margin-top: 20px; */
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20%;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+.form-button {
+    box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.2);
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    /* border-radius: 3px; */
+    cursor: pointer;
+}
+.form-button:hover {
+    background-color: #2c732c; /* Ubah warna saat hover */
+}
+
+.form-button.cancel {
+    box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.2);
+    background-color: #ccc;
+    margin-left: 10px;
+}
+
+.form-button.cancel:hover {
+    background-color: #999; /* Ubah warna saat hover pada tombol Batal */
+}
+
+/* menu bar */
+
+.menu-bar {
+    /* background-color: #333; */
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* gap: 10px; */
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    width: 100%;
+    /* border: 1px solid #ccc; */
+    padding-bottom: 10px;
+}
+.menu-item{
+    padding-block: 2px;
+    padding-inline: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.2);
+    /* border-radius: 5px; */
+    text-align: center;
+    width: 20rem;
+    cursor: pointer;
+}
+.menu-item:hover{
+    background-color: #999; /* Ubah warna saat hover pada tombol Batal */
+
+}
+.menu-item a{
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+    /* border: 1px solid #ccc; */
+    padding-inline: 6rem;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 15px;
+    padding-bottom: 20px;
+    border: 1px solid #ccc;
+    /* border-radius: 100vw; */
+    width: 65%;
+}
+
+/* Style for the card title */
+.card-title {
+    /* font-size: 24px; */
+    width: 50%;
+    margin: 0 auto;
+    padding: 5px 20px;
+    border: 1px solid #ccc;
+    /* border-radius: 5px; */
+    /* margin-bottom: 20px; */
+}
+
+.black-bar {
+    width: 90%;
+    height: 2px;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.2);
+    margin: 5px auto 20px auto;
+}
+.card-title-2 {
+    /* font-size: 24px; */
+    width: 90%;
+    margin: 0 auto;
+    padding: 5px 20px;
+    border: 1px solid #ccc;
+    /* border-radius: 5px; */
+    /* margin-bottom: 20px; */
+}
+
+.tabel-container {
+    /* display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px; */
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    padding-top: 40px;
+    border: 1px solid #ccc;
+    /* border-radius: 5px; */
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+/* style.css */
+
+.berkas-btn {
+    display: inline-block;
+    padding: 6px 12px;
+    background-color: #3498db;
+    color: #ffffff;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.berkas-btn:hover {
+    background-color: #2980b9;
+}
